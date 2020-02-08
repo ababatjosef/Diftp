@@ -1,16 +1,16 @@
-$ cat Diftp/Diftp_upload.sh
 #!/bin/bash
 if [ -z $1 ]; then
-	clear
-	echo "==============================================="
-	echo "What can this script do?:  "
-	echo "Remove characters present in \"*.dat\" files such as: {, }, [, and ]."
-	echo "Relocate files hidden under \".ssh\" directory."
-	echo "Update the timestamp of all the \"dat\" files it finds."
-	echo "Shows you a list of files that were successfully uploaded(cleared) and files that needs manual check."
-	echo "Sends email of the processing results."
-	echo "==============================================="
-	echo -e "\n"
+    cat <<EOF
+    =======================================================================================================
+    What can this script do?:
+    - Remove characters present in \"*.dat\" files such as: {, }, [, and ].
+    - Relocate files hidden under \".ssh\" directory.
+    - Update the timestamp of all the \"dat\" files it finds.
+    - Shows you a list of files that were successfully uploaded(cleared) and files that needs manual check.
+    - Sends email of the processing results.
+    =======================================================================================================
+    EOF
+    
     Dir=~/Desktop
     cd $Dir
 
