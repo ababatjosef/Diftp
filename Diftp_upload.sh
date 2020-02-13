@@ -9,7 +9,7 @@ if [ -z $1 ]; then
     - Shows you a list of files that were successfully uploaded(cleared) and files that needs manual check.
     - Sends email of the processing results.
     =======================================================================================================
-    EOF
+EOF
     
     Dir=~/Desktop
     cd $Dir
