@@ -1,5 +1,3 @@
-Diftp bash script
-
 ===========================================================================================================
     What can this script do?:
     - Remove characters present in \"*.dat\" files such as: {, }, [, and ].
